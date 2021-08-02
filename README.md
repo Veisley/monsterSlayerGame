@@ -2,7 +2,7 @@
 
 ## Installation
 
-After downloading the project run "install" command with your package manager.
+After downloading the project, run the "install" command with your package manager.
  
 ## Usage
 
