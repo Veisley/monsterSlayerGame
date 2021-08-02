@@ -1,4 +1,5 @@
-## monsterSlayerGame - Very Simple Monster Slayer Game with Vue 3 + Vite 
+# monsterSlayerGame 
+Very Simple Monster Slayer Game with Vue 3 + Vite 
 
 ## Installation
 
