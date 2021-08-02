@@ -7,17 +7,17 @@ After downloading the project, run the "install" command with your package manag
 ## Usage
 
 To start development server you can use 
-yarn dev, yarn vite
+yarn dev, yarn vite -
 npm run dev, npx vite commands.
 
 ## Deployment 
 
 To build the application  you can use
-yarn build, yarn vite build
+yarn build, yarn vite build -
 npm run build, npx vite build commands.
 
 ## Production Server
 
 To preview production server you can use
-yarn serve, yarn vite preview
+yarn serve, yarn vite preview -
 npm run serve, npx vite preview
