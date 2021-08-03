@@ -5,7 +5,9 @@
     </span>
 
     <div class="health-border">
-      <div class="health" :style="{'width':character.health + '%'}"></div>
+      <div class="health" :style="{ width: characterHealth + '%' }">
+        {{ Math.round(characterHealth) }}
+      </div>
     </div>
   </section>
 </template>
@@ -15,6 +17,11 @@ import { ref } from "vue";
 
 export default {
   props: ["character"],
+  computed: {
+    characterHealth() {
+      return this.character.health;
+    },
+  },
 };
 </script>
 
@@ -29,7 +36,7 @@ section {
   padding: 0.5rem;
   margin: 1rem auto;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  background: rgb(170, 170, 170);
+  background: rgba(245, 245, 245, 0.486);
   border-radius: 12px;
 }
 .character-name {
@@ -47,5 +54,6 @@ section {
   width: 100%;
   height: 20px;
   background: rgb(63, 2, 2);
+  color: white;
 }
 </style>
